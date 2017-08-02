@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let leftViewController = mainStoryboard.instantiateViewController(withIdentifier: "LeftViewController") as! LeftViewController
         centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftViewController)
         
-        // 手势
+        // 手势 
         centerContainer.openDrawerGestureModeMask = MMOpenDrawerGestureMode.all
         centerContainer.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.all
         
